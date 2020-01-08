@@ -6,6 +6,10 @@ import styled from "styled-components";
 const StyledDiv = styled.div`
   background: #242d69;
   height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 `;
 
 function App() {
